@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/home/TRANTORCHD/prince.sethi/Desktop/office_work/flask_session/youtube_video_code-master/2019/06/14/Getting Started With Flask-SQLAlchemy [2019]/flask_sqlalchemy_intro/env/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from flask.cli import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
